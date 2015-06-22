@@ -13,5 +13,5 @@ What's Included
  3. Utilize the [Faster-XML](http://wiki.fasterxml.com/JacksonHome) and [Hibernate object mapper](https://github.com/FasterXML/jackson-datatype-hibernate) to remove the  **JSON circular dependencies issue**
  4. Demonstrate different reference example to show how to post and
     consume different rest based services
- 5. Demonstrate the **Jersey Client code** which could help to **make a system to system call to REST resources**
+ 5. **[Jersey Client utility](https://github.com/niravrshah/JerseySpringExample/blob/master/src/main/java/com/shah/java/util/JerseyUtil.java)** with sample code which could help to **make a system to system call to REST resources**
  6. Demonstrate the example to build the **REST based CRUD services**
