@@ -19,16 +19,17 @@ What's Included
 How to Build?
 -------------
 ----------
-> go to the project work directory and execute below maven goal 
- > ***mvn clean install***
+We are using maven to build and manage the project dependencies. To build the project, go to the project work directory and execute below maven goal 
+>***mvn clean install***
  
-Handy URI after deployment
+Handy URIs after deployment
 ------------- 
- 
+------------
+Below sample URIs will be helpful to you to navigate some of the REST based service comes free with these project and ready to use after building and deploying the project
 
  1. **[WADL](http://localhost:8080/JerseySpringExample/)**
  2. **[Get All Sources](http://localhost:8080/JerseySpringExample/rest/referenceservice/sources/)**	
  3. [**Get Source by resource name**](http://localhost:8080/JerseySpringExample/rest/referenceservice/sources/sourcename/Spring)
  4. Persist **[parent/child cascading](http://localhost:8080/JerseySpringExample/rest/reference/entityservice/client/save/parent)** through SOAP-UI/rest client(also remove JSON circular
     dependencies)
- 5. [**Update payment**](http://localhost:8080/JerseySpringExample/rest/payment/save) 
+ 5. [**Update payment**](http://localhost:8080/JerseySpringExample/rest/payment/save)
