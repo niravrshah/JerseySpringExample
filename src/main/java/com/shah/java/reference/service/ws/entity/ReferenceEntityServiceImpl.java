@@ -23,7 +23,7 @@ import org.springframework.stereotype.Component;
 import com.sun.jersey.api.client.ClientResponse.Status;
 
 /**
- * @author Nirav Shah (ns091366)
+ * @author Nirav Shah 
  * 
  */
 @Component

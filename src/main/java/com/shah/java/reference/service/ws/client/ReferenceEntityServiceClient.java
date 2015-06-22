@@ -24,7 +24,7 @@ import com.sun.jersey.api.client.UniformInterfaceException;
  * Sample Jersey Client that can be refer to use in any client code (like feeder
  * web app) who would like to make a call to any jersey resource
  * 
- * @author Nirav Shah (ns091366)
+ * @author Nirav Shah 
  */
 @Component
 @Path("reference/entityservice/client")
