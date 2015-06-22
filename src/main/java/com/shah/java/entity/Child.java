@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.shah.java.reference.service.ws.entity;
+package com.shah.java.entity;
 
 import java.io.Serializable;
 

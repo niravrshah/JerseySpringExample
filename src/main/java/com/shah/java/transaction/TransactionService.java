@@ -1,6 +1,6 @@
 package com.shah.java.transaction;
  
-public interface TransactionBo{
+public interface TransactionService{
  
 	String save();
  

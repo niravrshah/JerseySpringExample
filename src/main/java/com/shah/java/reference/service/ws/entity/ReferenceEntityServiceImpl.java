@@ -17,9 +17,9 @@ import org.apache.commons.collections.BidiMap;
 import org.apache.commons.collections.bidimap.DualHashBidiMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import com.shah.java.entity.Parent;
 import com.sun.jersey.api.client.ClientResponse.Status;
 
 /**
@@ -90,10 +90,10 @@ public class ReferenceEntityServiceImpl implements ReferenceEntityService {
 	 */
 	private BidiMap getAllSourcesMap() {
 		BidiMap srcMap = new DualHashBidiMap();
-		srcMap.put(Long.valueOf(1), "Bruce");
-		srcMap.put(Long.valueOf(2), "Manual Uplaod");
-		srcMap.put(Long.valueOf(3), "SAP");
-		srcMap.put(Long.valueOf(4), "Big Upload");
+		srcMap.put(Long.valueOf(1), "Java");
+		srcMap.put(Long.valueOf(2), "Jersey Rest");
+		srcMap.put(Long.valueOf(3), "Spring");
+		srcMap.put(Long.valueOf(4), "Big Data");
 		return srcMap;
 	}
 
