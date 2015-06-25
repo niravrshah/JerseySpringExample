@@ -25,7 +25,7 @@ We are using maven to build and manage the project dependencies. To build the pr
 Handy URIs after deployment
 ------------- 
 ------------
-Below sample URIs will be helpful to you to navigate some of the REST based service comes free with these project and ready to use after building and deploying the project
+Below sample URIs will be helpful to you to navigate some of the REST based service comes free with this project and ready to use after building and deploying the project
 
  1. **[WADL](http://localhost:8080/JerseySpringExample/)**
  2. **[Get All Sources](http://localhost:8080/JerseySpringExample/rest/referenceservice/sources/)**	
