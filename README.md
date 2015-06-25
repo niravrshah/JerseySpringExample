@@ -25,11 +25,12 @@ We are using maven to build and manage the project dependencies. To build the pr
 Handy URIs after deployment
 ------------- 
 ------------
-Below sample URIs will be helpful to you to navigate some of the REST based service comes free with this project and ready to use after building and deploying the project
+Below sample URIs will be helpful to you to navigate some of the REST based service comes free with this project and ready to use after building and deploying the project. [Currently deployed in EC2]
 
  1. **[WADL](http://ec2-52-8-193-203.us-west-1.compute.amazonaws.com:8080/JerseySpringExample/)**
  2. **[Get All Sources](http://ec2-52-8-193-203.us-west-1.compute.amazonaws.com:8080/JerseySpringExample/rest/referenceservice/sources/)**	
- 3. [**Get Source by resource name**](http://ec2-52-8-193-203.us-west-1.compute.amazonaws.com:8080/JerseySpringExample/rest/referenceservice/sources/sourcename/Spring)
- 4. Persist **[parent/child cascading](http://ec2-52-8-193-203.us-west-1.compute.amazonaws.com:8080/JerseySpringExample/rest/reference/entityservice/client/save/parent)** through ***SOAP-UI/rest client ONLY***(also remove JSON circular
-    dependencies)
+ 3. [**Get Source ID by Source name**](http://ec2-52-8-193-203.us-west-1.compute.amazonaws.com:8080/JerseySpringExample/rest/referenceservice/sources/sourcename/Spring)
+ 4. **[Get Source name by Source ID](http://ec2-52-8-193-203.us-west-1.compute.amazonaws.com:8080/JerseySpringExample/rest/referenceservice/sources/4)**
  5. [**Update payment**](http://ec2-52-8-193-203.us-west-1.compute.amazonaws.com:8080/JerseySpringExample/rest/payment/save)
+ 6. Persist **[parent/child cascading](http://ec2-52-8-193-203.us-west-1.compute.amazonaws.com:8080/JerseySpringExample/rest/reference/entityservice/client/save/parent)** through ***SOAP-UI/rest client ONLY***(also remove JSON circular
+    dependencies)
