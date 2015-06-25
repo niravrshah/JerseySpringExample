@@ -27,9 +27,9 @@ Handy URIs after deployment
 ------------
 Below sample URIs will be helpful to you to navigate some of the REST based service comes free with this project and ready to use after building and deploying the project
 
- 1. **[WADL](http://localhost:8080/JerseySpringExample/)**
- 2. **[Get All Sources](http://localhost:8080/JerseySpringExample/rest/referenceservice/sources/)**	
- 3. [**Get Source by resource name**](http://localhost:8080/JerseySpringExample/rest/referenceservice/sources/sourcename/Spring)
- 4. Persist **[parent/child cascading](http://localhost:8080/JerseySpringExample/rest/reference/entityservice/client/save/parent)** through SOAP-UI/rest client(also remove JSON circular
+ 1. **[WADL](http://ec2-52-8-193-203.us-west-1.compute.amazonaws.com:8080/JerseySpringExample/)**
+ 2. **[Get All Sources](http://ec2-52-8-193-203.us-west-1.compute.amazonaws.com:8080/JerseySpringExample/rest/referenceservice/sources/)**	
+ 3. [**Get Source by resource name**](http://ec2-52-8-193-203.us-west-1.compute.amazonaws.com:8080/JerseySpringExample/rest/referenceservice/sources/sourcename/Spring)
+ 4. Persist **[parent/child cascading](http://ec2-52-8-193-203.us-west-1.compute.amazonaws.com:8080/JerseySpringExample/rest/reference/entityservice/client/save/parent)** through SOAP-UI/rest client(also remove JSON circular
     dependencies)
- 5. [**Update payment**](http://localhost:8080/JerseySpringExample/rest/payment/save)
+ 5. [**Update payment**](http://ec2-52-8-193-203.us-west-1.compute.amazonaws.com:8080/JerseySpringExample/rest/payment/save)
