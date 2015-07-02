@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Create RESTFul WebServices using Jersey, Jackson and Spring by niravrshah</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/niravrshah/JerseySpringExample">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/niravrshah/JerseySpringExample/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/niravrshah/JerseySpringExample/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Create RESTFul WebServices using Jersey, Jackson and Spring</h1>
+          <p>by Nirav Shah</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/niravrshah">niravrshah</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h3>
+<a id="welcome-to-jerseyspringexample" class="anchor" href="#welcome-to-jerseyspringexample" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to JerseySpringExample!</h3>
+
+<h1></h1>
+
+<p>This project demonstrates the simple implementation of provisioning your <strong>REST</strong> based Web Service infrastructure using the best breeds of libraries.</p>
+
+<h3>
+<a id="whats-included" class="anchor" href="#whats-included" aria-hidden="true"><span class="octicon octicon-link"></span></a>What's Included</h3>
+
+<hr>
+
+<ol>
+<li>
+<strong><a href="https://jersey.java.net/">Jersey</a></strong> - The reference implementation of the JAX-RS from Oracle.
+Provides a very rich, and robust API for implementing RESTful
+Services, including a client Library</li>
+<li>Utilize the <a href="http://wiki.fasterxml.com/JacksonHome"><strong>Faster-XML</strong></a> and <a href="https://github.com/FasterXML/jackson-datatype-hibernate"><strong>Hibernate object mapper</strong></a> to remove the  <strong><a href="https://github.com/niravrshah/JerseySpringExample/blob/master/src/main/java/com/shah/java/reference/service/ws/client/ReferenceEntityServiceClient.java">JSON circular dependencies issue</a></strong>
+</li>
+<li>Demonstrate different reference examples regarding building different CRUD based entity service (<em><a href="https://github.com/niravrshah/JerseySpringExample/blob/master/src/main/java/com/shah/java/service/ws/BaseService.java">BaseService</a></em>, <em><a href="https://github.com/niravrshah/JerseySpringExample/blob/master/src/main/java/com/shah/java/service/ws/entity/BaseCrudEntityService.java">BaseCrudEntityService</a></em> etc..)</li>
+<li>
+<strong><a href="https://github.com/niravrshah/JerseySpringExample/blob/master/src/main/java/com/shah/java/util/JerseyUtil.java">Jersey Client utility</a></strong> with <a href="https://github.com/niravrshah/JerseySpringExample/blob/master/src/main/java/com/shah/java/reference/service/ws/client/ReferenceEntityServiceClient.java">sample code</a> which could help to <strong>make a system to system call to REST resources</strong>
+</li>
+<li>Provide <strong>Jersey Jackson + Spring integration</strong>
+</li>
+<li>Demonstrate an example to build the <strong>REST based CRUD services</strong>
+</li>
+<li>
+<strong>Web Service Discovery</strong> using <strong><a href="https://en.wikipedia.org/wiki/Web_Application_Description_Language">WADL</a></strong> implementation</li>
+</ol>
+
+<h3>
+<a id="how-to-build" class="anchor" href="#how-to-build" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to Build?</h3>
+
+<p>We are using maven to build and manage the project dependencies. To build the project, go to the project work directory and execute below maven goal </p>
+
+<blockquote>
+<p><strong><em>mvn clean install</em></strong></p>
+</blockquote>
+
+<h3>
+<a id="handy-uris-after-deployment-you-could-check-the-currently-deployed-version-to-ec2-by-clicking-on-them-below" class="anchor" href="#handy-uris-after-deployment-you-could-check-the-currently-deployed-version-to-ec2-by-clicking-on-them-below" aria-hidden="true"><span class="octicon octicon-link"></span></a>Handy URIs after deployment. You could check the currently deployed version to EC2 by clicking on them below.</h3>
+
+<p>Below sample URIs will be helpful to you to navigate some of the REST based service comes free with this project and ready to use after building and deploying the project. [Currently deployed in EC2]</p>
+
+<ol>
+<li><strong><a href="http://ec2-52-8-210-14.us-west-1.compute.amazonaws.com/JerseySpringExample/">WADL</a></strong></li>
+<li>
+<strong><a href="http://ec2-52-8-210-14.us-west-1.compute.amazonaws.com/JerseySpringExample/rest/referenceservice/sources/">Get All Sources</a></strong><br>
+</li>
+<li><a href="http://ec2-52-8-210-14.us-west-1.compute.amazonaws.com/JerseySpringExample/rest/referenceservice/sources/sourcename/Spring"><strong>Get Source ID by Source name</strong></a></li>
+<li><strong><a href="http://ec2-52-8-210-14.us-west-1.compute.amazonaws.com/JerseySpringExample/rest/referenceservice/sources/4">Get Source name by Source ID</a></strong></li>
+<li><a href="http://ec2-52-8-210-14.us-west-1.compute.amazonaws.com/JerseySpringExample/rest/payment/save"><strong>Update payment</strong></a></li>
+<li>Persist <strong><a href="http://ec2-52-8-193-203.us-west-1.compute.amazonaws.com:8080/JerseySpringExample/rest/reference/entityservice/client/save/parent">parent/child cascading</a></strong> through <strong><em>SOAP-UI/rest client ONLY</em></strong>(also remove JSON circular
+dependencies)</li>
+</ol>
+
+<h3>
+<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+
+<p>Nirav R Shah (<a href="http://github.com/niravrshah">@niravrshah</a>) </p>
+
+<h3>
+<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+<p>Having trouble/questions with the project? <a href="mailto:niravkumar.r.shah@gmail.com?subject=Need%20Support%20for%20SampleWebDemo">Contact support</a> and we’ll help you sort it out.</p>
+
+<p> <a href="https://github.com/niravrshah/SampleWebDemo">Samplewebdemo</a> is maintained by <a href="https://github.com/niravrshah">niravrshah</a>. 
+</p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
